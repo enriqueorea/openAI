@@ -77,7 +77,7 @@ const handleSubmit = async (e) => {
 
   //fethc
 
-  const dataResponse = await axios.post("http://localhost:5000/", {
+  const dataResponse = await axios.post("https://codexai-ywjg.onrender.com", {
     prompt: data.get("prompt"),
   });
 
